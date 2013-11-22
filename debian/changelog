@@ -1,0 +1,5 @@
+hidrd (0.2.0-2) unstable; urgency=low
+
+  * Initial packaging. (Closes: #729821)
+
+ -- Klee Dienes <klee@mit.edu>  Sun, 17 Nov 2013 18:56:30 -0500

@@ -1,0 +1,41 @@
+.Dd September 15, 2013
+.Dt hidrd\-convert 1
+.Os Debian GNU/Linux
+.Sh NAME
+.Nm hidrd\-convert
+.Nd convert a HID report descriptor
+.Sh SYNOPSIS
+.Nm
+.Op Fl i Ar format
+.Op Fl o Ar format
+.Op Ar INPUT
+.Op Ar OUTPUT
+.Sh OPTIONS
+With no INPUT, or when INPUT is \-, read standard input.
+With no OUTPUT, or when OUTPUT is \-, write standard output.
+.sp
+Options:
+  \-h, \-\-help                       this help message
+  \-\-hf, \-\-help\-formats             description of formats and options
+  \-i, \-\-input-format=FORMAT        use FORMAT for input
+  \-\-io=LIST, \-\-input\-options=LIST  use LIST input format options
+  \-o, \-\-output-format=FORMAT       use FORMAT for output
+  \-\-oo=LIST, \-\-output\-options=LIST use LIST output format options
+.sp
+The following formats are supported by
+.Nm :
+.Bl -column -offset indent ".Sy Format" ".Sy I/O" ".Sy Description"
+.It Sy Format Ta Sy [I/O] Ta Sy Description
+.It Li natv Ta [IO] Ta native
+.It Li xml Ta [IO] Ta XML
+.It Li spec Ta [ O] Ta specification example
+.It Li code Ta [ O] Ta source code
+.El
+.sp
+Default options are \-i natv \-o natv.
+.sp
+.Sh FILES
+.Bl -tag -width "/usr/share/xml/schema/hidrd.xsd" -compact
+.It Pa /usr/share/xml/schema/hidrd.xsd
+Schema for the HID <-> XML converter.
+.El

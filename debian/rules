@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+
+.PHONY: override_dh_strip override_dh_auto_configure
+
+DPKG_EXPORT_BUILDFLAGS = 1
+-include /usr/share/dpkg/buildflags.mk
+
+DH_WITHFLAGS = --with autoreconf --with pkgkde_symbolshelper
+DH_FLAGS = --parallel --buildsystem=autoconf
+
+CONFIGURE_EXTRA_FLAGS = --enable-libraries --enable-shared --enable-static
+
+%:
+	dh $@ $(DH_WITHFLAGS) $(DH_FLAGS)
+
+override_dh_strip:
+	dh_strip --dbg-package=libhidrd0-dbg
+
+override_dh_auto_configure:
+	dh_auto_configure $(addprefix -O, $(DH_FLAGS)) -- $(CONFIGURE_EXTRA_FLAGS)
