@@ -1,3 +1,10 @@
+hidrd (0.2.0-3) unstable; urgency=low
+
+  * Add git-buildpackage pristine-tar configuration.
+  * Add libxml2-dev build-dependency.
+
+ -- Klee Dienes <klee@mit.edu>  Fri, 22 Nov 2013 18:10:02 -0500
+
 hidrd (0.2.0-2) unstable; urgency=low
 
   * Initial packaging. (Closes: #729821)
