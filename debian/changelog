@@ -1,3 +1,9 @@
+hidrd (0.2.0-4) unstable; urgency=low
+
+  * Remove overrides for no-upstream-changelog.
+
+ -- Klee Dienes <klee@mit.edu>  Sat, 23 Nov 2013 08:10:23 -0500
+
 hidrd (0.2.0-3) unstable; urgency=low
 
   * Add git-buildpackage pristine-tar configuration.
