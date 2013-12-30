@@ -1,0 +1,18 @@
+From: Klee Dienes <klee.dienes@hadronindustries.com>
+Date: Sun, 29 Dec 2013 23:53:34 -0500
+Subject: Remove m4/autoconf from Makefile.am.
+
+---
+ Makefile.am | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile.am b/Makefile.am
+index 8a34898..c176de7 100644
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -20,4 +20,4 @@ SUBDIRS = m4 db include lib src
+ 
+ dist_noinst_SCRIPTS = bootstrap distcheck-all
+ 
+-ACLOCAL_AMFLAGS = -I m4/autoconf
++# ACLOCAL_AMFLAGS = -I m4/autoconf

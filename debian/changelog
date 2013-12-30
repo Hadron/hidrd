@@ -1,3 +1,9 @@
+hidrd (0.2.0-6) unstable; urgency=low
+
+  * Remove m4/autoconf from Makefile.am.
+
+ -- Klee Dienes <klee@mit.edu>  Sun, 29 Dec 2013 23:42:19 -0500
+
 hidrd (0.2.0-4) unstable; urgency=low
 
   * Remove overrides for no-upstream-changelog.
