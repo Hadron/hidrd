@@ -1,0 +1,25 @@
+From: Klee Dienes <klee.dienes@hadronindustries.com>
+Date: Sat, 11 Jan 2014 18:00:43 -0500
+Subject: Remove hard-coded compile flags.
+
+---
+ configure.ac | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/configure.ac b/configure.ac
+index 9b3e04f..71da691 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -28,10 +28,10 @@ AC_CONFIG_MACRO_DIR([m4/autoconf])
+ 
+ # To have empty CFLAGS instead of undefined and '-g -O2' by default
+ CFLAGS=$CFLAGS
+-CFLAGS="-Os -Wall -Wextra -Werror $CFLAGS"
++CFLAGS="-Wall -Wextra -Werror $CFLAGS"
+ ABS_SRCDIR=`cd ${srcdir} ; pwd`
+ ABS_BUILDDIR=`pwd`
+-CPPFLAGS="-I${ABS_BUILDDIR} -I${ABS_BUILDDIR}/include -D_GNU_SOURCE -DNDEBUG $CPPFLAGS"
++CPPFLAGS="-I${ABS_BUILDDIR} -I${ABS_BUILDDIR}/include -D_GNU_SOURCE $CPPFLAGS"
+ if test "$ABS_SRCDIR" != "$ABS_BUILDDIR"; then
+     CPPFLAGS="-I${ABS_SRCDIR}/include $CPPFLAGS"
+ fi
