@@ -30,10 +30,10 @@ m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
 
 # To have empty CFLAGS instead of undefined and '-g -O2' by default
 CFLAGS=$CFLAGS
-CFLAGS="-Os -Wall -Wextra -Werror $CFLAGS"
+CFLAGS="-Wall -Wextra -Werror $CFLAGS"
 ABS_SRCDIR=`cd ${srcdir} ; pwd`
 ABS_BUILDDIR=`pwd`
-CPPFLAGS="-I${ABS_BUILDDIR} -I${ABS_BUILDDIR}/include -D_GNU_SOURCE -DNDEBUG $CPPFLAGS"
+CPPFLAGS="-I${ABS_BUILDDIR} -I${ABS_BUILDDIR}/include -D_GNU_SOURCE $CPPFLAGS"
 if test "$ABS_SRCDIR" != "$ABS_BUILDDIR"; then
     CPPFLAGS="-I${ABS_SRCDIR}/include $CPPFLAGS"
 fi
