@@ -2,12 +2,12 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: Hidrd
 Source: Homepage: http://sourceforge.net/apps/mediawiki/digimend/index.php?title=Hidrd
 
-Files: debian/*
-Copyright: 2013 Klee Dienes <klee@mit.edu>
-License: GPL-2+
-
 Files: *
 Copyright: 2009-2010 Nikolai Kondrashov
+License: GPL-2+
+
+Files: debian/*
+Copyright: 2013 Klee Dienes <klee@mit.edu>
 License: GPL-2+
 
 License: GPL-2+
