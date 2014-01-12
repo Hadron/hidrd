@@ -46,7 +46,7 @@ Description: detached debugging symbols for libhidrd0
  descriptors between formats.
  
 Package: libhidrd0
-Section: libdevel
+Section: libs
 Architecture: any
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
