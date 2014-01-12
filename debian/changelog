@@ -1,3 +1,9 @@
+hidrd (0.2.0-10) unstable; urgency=low
+
+  * Reorder copyright to go from least to most specific
+
+ -- Klee Dienes <klee@mit.edu>  Sat, 11 Jan 2014 23:04:51 -0500
+
 hidrd (0.2.0-9) unstable; urgency=low
 
   * Remove hard-coded compile flags.
