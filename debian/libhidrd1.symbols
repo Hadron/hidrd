@@ -1,9 +1,15 @@
-libhidrd_fmt.so.0 libhidrd0 #MINVER#
+# SymbolsHelper-Confirmed: 0.2.1 amd64
+libhidrd_fmt.so.1 libhidrd1 #MINVER#
  hidrd_code@Base 0.2
  hidrd_code_snk@Base 0.2
  hidrd_fmt_list@Base 0.2
  hidrd_fmt_list_lkp@Base 0.2
  hidrd_fmt_valid@Base 0.2
+ hidrd_hex@Base 0.2.1
+ hidrd_hex_snk@Base 0.2.1
+ hidrd_hex_snk_init_opts@Base 0.2.1
+ hidrd_hex_snk_opts_spec@Base 0.2.1
+ hidrd_hex_src@Base 0.2.1
  hidrd_natv@Base 0.2
  hidrd_natv_snk@Base 0.2
  hidrd_natv_src@Base 0.2
@@ -66,7 +72,7 @@ libhidrd_fmt.so.0 libhidrd0 #MINVER#
  xml_src_element_output@Base 0.2
  xml_src_element_unit@Base 0.2
  xml_validate@Base 0.2
-libhidrd_item.so.0 libhidrd0 #MINVER#
+libhidrd_item.so.1 libhidrd1 #MINVER#
  hidrd_item_basic_data_bytes_from_dec@Base 0.2
  hidrd_item_basic_data_bytes_from_hex@Base 0.2
  hidrd_item_basic_data_bytes_from_pstr@Base 0.2
@@ -177,7 +183,7 @@ libhidrd_item.so.0 libhidrd0 #MINVER#
  hidrd_item_short_type_to_shex@Base 0.2
  hidrd_item_short_type_to_token@Base 0.2
  hidrd_item_valid@Base 0.2
-libhidrd_opt.so.0 libhidrd0 #MINVER#
+libhidrd_opt.so.1 libhidrd1 #MINVER#
  hidrd_opt_format@Base 0.2
  hidrd_opt_format_tkns@Base 0.2
  hidrd_opt_get_boolean@Base 0.2
@@ -237,7 +243,7 @@ libhidrd_opt.so.0 libhidrd0 #MINVER#
  hidrd_opt_type_valid@Base 0.2
  hidrd_opt_valid@Base 0.2
  hidrd_opt_value_tkn_valid@Base 0.2
-libhidrd_strm.so.0 libhidrd0 #MINVER#
+libhidrd_strm.so.1 libhidrd1 #MINVER#
  hidrd_snk_close@Base 0.2
  hidrd_snk_delete@Base 0.2
  hidrd_snk_errmsg@Base 0.2
@@ -257,7 +263,7 @@ libhidrd_strm.so.0 libhidrd0 #MINVER#
  hidrd_src_new_opts@Base 0.2
  hidrd_src_type_valid@Base 0.2
  hidrd_src_valid@Base 0.2
-libhidrd_usage.so.0 libhidrd0 #MINVER#
+libhidrd_usage.so.1 libhidrd1 #MINVER#
  hidrd_usage_desc_id_str@Base 0.2
  hidrd_usage_desc_str@Base 0.2
  hidrd_usage_from_dec@Base 0.2
@@ -339,7 +345,7 @@ libhidrd_usage.so.0 libhidrd0 #MINVER#
  hidrd_usage_type_set_desc_str@Base 0.2
  hidrd_usage_type_valid@Base 0.2
  hidrd_usage_valid@Base 0.2
-libhidrd_util.so.0 libhidrd0 #MINVER#
+libhidrd_util.so.1 libhidrd1 #MINVER#
  hidrd_bool_from_str@Base 0.2
  hidrd_bool_to_str@Base 0.2
  hidrd_buf_add_printf@Base 0.2
@@ -348,11 +354,15 @@ libhidrd_util.so.0 libhidrd0 #MINVER#
  hidrd_buf_add_str@Base 0.2
  hidrd_buf_add_vprintf@Base 0.2
  hidrd_buf_clnp@Base 0.2
- hidrd_buf_detach@Base 0.2
+ hidrd_buf_del@Base 0.2.1
+#MISSING: 0.2.1# hidrd_buf_detach@Base 0.2
+ hidrd_buf_disown@Base 0.2.1
  hidrd_buf_grow@Base 0.2
  hidrd_buf_init@Base 0.2
+ hidrd_buf_own@Base 0.2.1
  hidrd_buf_reset@Base 0.2
- hidrd_buf_retension@Base 0.2
+#MISSING: 0.2.1# hidrd_buf_retension@Base 0.2
+ hidrd_buf_retention@Base 0.2.1
  hidrd_buf_valid@Base 0.2
  hidrd_char_uc@Base 0.2
  hidrd_fd_read_whole@Base 0.2
@@ -370,6 +380,7 @@ libhidrd_util.so.0 libhidrd0 #MINVER#
  hidrd_num_s32_to_str@Base 0.2
  hidrd_num_s8_from_str@Base 0.2
  hidrd_num_to_alt_str@Base 0.2
+ hidrd_num_type_id_valid@Base 0.2.1
  hidrd_num_u16_from_str@Base 0.2
  hidrd_num_u32_from_le@Base 0.2
  hidrd_num_u32_from_str@Base 0.2
