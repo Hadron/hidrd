@@ -1,3 +1,4 @@
 0001-Remove-m4-autoconf-from-Makefile.am.patch
 0002-Remove-hard-coded-compile-flags.patch
-0003-Use-signedness-safe-prototypes-to-vararg-printer.patch
+# 0003-Use-signedness-safe-prototypes-to-vararg-printer.patch
+0004-Extern-natv-sink.patch
