@@ -1,3 +1,9 @@
+hidrd (0.2.0-12) unstable; urgency=medium
+
+  * Add extern to hidrd_natv_snk.  Closes: #818564.
+
+ -- Klee Dienes <klee@debian.org>  Fri, 18 Mar 2016 20:10:27 -0400
+
 hidrd (0.2.0-11) unstable; urgency=low
 
   * Use signedness-safe prototypes to vararg printer.
