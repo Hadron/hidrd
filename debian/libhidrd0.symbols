@@ -4,6 +4,11 @@ libhidrd_fmt.so.0 libhidrd0 #MINVER#
  hidrd_fmt_list@Base 0.2
  hidrd_fmt_list_lkp@Base 0.2
  hidrd_fmt_valid@Base 0.2
+ hidrd_hex@Base 0.2.0+git.20170131+1abf7033-1
+ hidrd_hex_snk@Base 0.2.0+git.20170131+1abf7033-1
+ hidrd_hex_snk_init_opts@Base 0.2.0+git.20170131+1abf7033-1
+ hidrd_hex_snk_opts_spec@Base 0.2.0+git.20170131+1abf7033-1
+ hidrd_hex_src@Base 0.2.0+git.20170131+1abf7033-1
  hidrd_natv@Base 0.2
  hidrd_natv_snk@Base 0.2
  hidrd_natv_src@Base 0.2
@@ -348,11 +353,15 @@ libhidrd_util.so.0 libhidrd0 #MINVER#
  hidrd_buf_add_str@Base 0.2
  hidrd_buf_add_vprintf@Base 0.2
  hidrd_buf_clnp@Base 0.2
- hidrd_buf_detach@Base 0.2
+ hidrd_buf_del@Base 0.2.0+git.20170131+1abf7033-1
+#MISSING: 0.2.0+git.20170131+1abf7033-1# hidrd_buf_detach@Base 0.2
+ hidrd_buf_disown@Base 0.2.0+git.20170131+1abf7033-1
  hidrd_buf_grow@Base 0.2
  hidrd_buf_init@Base 0.2
+ hidrd_buf_own@Base 0.2.0+git.20170131+1abf7033-1
  hidrd_buf_reset@Base 0.2
- hidrd_buf_retension@Base 0.2
+#MISSING: 0.2.0+git.20170131+1abf7033-1# hidrd_buf_retension@Base 0.2
+ hidrd_buf_retention@Base 0.2.0+git.20170131+1abf7033-1
  hidrd_buf_valid@Base 0.2
  hidrd_char_uc@Base 0.2
  hidrd_fd_read_whole@Base 0.2
@@ -370,6 +379,7 @@ libhidrd_util.so.0 libhidrd0 #MINVER#
  hidrd_num_s32_to_str@Base 0.2
  hidrd_num_s8_from_str@Base 0.2
  hidrd_num_to_alt_str@Base 0.2
+ hidrd_num_type_id_valid@Base 0.2.0+git.20170131+1abf7033-1
  hidrd_num_u16_from_str@Base 0.2
  hidrd_num_u32_from_le@Base 0.2
  hidrd_num_u32_from_str@Base 0.2

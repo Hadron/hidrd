@@ -1,0 +1,12 @@
+diff --git a/lib/fmt/xml/snk/element.c b/lib/fmt/xml/snk/element.c
+index b3c663f..f559bbd 100644
+--- a/lib/fmt/xml/snk/element.c
++++ b/lib/fmt/xml/snk/element.c
+@@ -227,6 +227,7 @@ xml_snk_element_addpv(hidrd_xml_snk_inst   *xml_snk,
+             case XML_SNK_ELEMENT_NT_ATTR:
+                 /* Retrieve name */
+                 (void)va_arg(*pap, const char *);
++		/* fallthrough */
+             case XML_SNK_ELEMENT_NT_COMMENT:
+             case XML_SNK_ELEMENT_NT_CONTENT:
+                 fmt =  va_arg(*pap, hidrd_fmt_type);
