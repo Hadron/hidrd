@@ -1,3 +1,9 @@
+hidrd (0.2.0+git.20170802+7e94881a-1) unstable; urgency=medium
+
+  * New upstream sources.
+
+ -- Klee Dienes <klee@debian.org>  Sun, 21 Jan 2018 17:36:41 -0500
+
 hidrd (0.2.0+git.20170131+1abf7033-1) unstable; urgency=medium
 
   * New upstream sources.
